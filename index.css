@@ -100,12 +100,6 @@ html {
   display: none;
 }
 
-.navbar__bars-checkbox {
-}
-
-.navbar__bars-toggler {
-}
-
 .navbar__menu {
   width: 65%;
   /* background-color: green; */
@@ -544,7 +538,7 @@ textarea:focus {
 /*--------------------Footer--------------------*/
 
 .footer {
-  min-height: 22vh;
+  height: 22vh;
   width: 100%;
   background-color: #111111;
   flex-direction: column;

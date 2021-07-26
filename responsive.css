@@ -2,17 +2,126 @@
   html {
     font-size: 8.5px;
   }
+
+  .navbar {
+    justify-content: space-between;
+    padding-right: 3rem;
+  }
+  #navbar__bars-checkbox {
+    display: none;
+  }
+
+  #navbar__bars-checkbox:checked ~ .navbar__menu {
+    transform: translateX(0%);
+    transition: 0.3s all ease-in;
+  }
+
+  .navbar__bars {
+    display: block;
+  }
+
+  .navbar__bars-toggler {
+    color: #f8f8f8;
+    font-size: 3.5rem;
+    cursor: pointer;
+  }
+  .navbar__menu {
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 10vh;
+    transform: translateX(200%);
+    transition: 0.4s all ease-out;
+    height: 90vh;
+    justify-content: center;
+    background-color: #171717;
+  }
+
+  .navbar__menu li {
+    font-size: 3rem;
+    padding: 2rem;
+  }
+
+  .hero__title--name {
+    padding-left: 1.5rem;
+  }
+  .main__button {
+    width: 18rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  }
   .about__info {
     flex-direction: column;
   }
   .info__text {
     margin-top: 3rem;
-    width: 90%;
+    width: 95%;
+  }
+
+  .info__text__p {
+    font-size: 2rem;
   }
   .info__img__container {
     margin-top: 2rem;
   }
   .about__stack {
     height: 20vh;
+  }
+  .project__info {
+    width: 35rem;
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+  }
+  .projects__container {
+    width: 90%;
+  }
+  .project__info__title {
+    font-size: 2.8rem;
+  }
+  .project__info__stack {
+    font-size: 2rem;
+  }
+  .alt-button {
+    width: 15rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+
+  .form__input,
+  .textarea {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .form__input {
+    width: 40rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+  }
+  .textarea {
+    min-width: 40rem;
+    min-height: 15rem;
+    max-height: 20rem;
+    margin-bottom: 3rem;
+  }
+  .form__submit {
+    width: 40rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .footer {
+    height: 18vh;
+    padding: 2rem 0rem;
+  }
+  .footer__media {
+    width: 40%;
+  }
+
+  .footer__p {
+    font-size: 1.5rem;
   }
 }

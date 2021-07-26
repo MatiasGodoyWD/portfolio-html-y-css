@@ -36,7 +36,11 @@
     transition: 0.4s all ease-out;
     height: 90vh;
     justify-content: center;
-    background-color: #171717;
+    animation-name: background;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
   }
 
   .navbar__menu li {

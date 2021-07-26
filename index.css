@@ -539,6 +539,12 @@ textarea:focus {
   transition: 0.4s all ease-in;
 }
 
+.form__submit:focus,
+.alt-button:focus,
+.main__button:focus {
+  outline: none;
+}
+
 /*--------------------Footer--------------------*/
 
 .footer {

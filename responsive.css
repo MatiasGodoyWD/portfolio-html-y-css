@@ -59,6 +59,7 @@
   }
   .about__info {
     flex-direction: column;
+    height: 70vh;
   }
   .info__text {
     margin-top: 3rem;

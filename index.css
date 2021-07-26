@@ -253,10 +253,10 @@ html {
 }
 
 .about__info {
-  width: 90%;
-  height: 50vh;
+  width: 100%;
+  height: auto;
   flex-direction: row;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 
 .info__img__container {
@@ -331,9 +331,10 @@ html {
 .projects {
   flex-direction: column;
   height: auto;
-  position: relative;
+
   margin-bottom: 9rem;
   background-color: var(--main-white);
+  width: 100%;
 }
 .projects__container {
   flex-direction: row;
@@ -473,6 +474,7 @@ html {
 
 .contact__form {
   flex-direction: column;
+  width: 100%;
 }
 
 .form__title {

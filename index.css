@@ -350,6 +350,7 @@ html {
   width: 25rem;
   height: 25rem;
   background: url(./img/placeholder.png);
+  background-size: contain;
 }
 
 .project__info__content {

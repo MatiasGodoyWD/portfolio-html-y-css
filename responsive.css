@@ -66,6 +66,10 @@
     width: 95%;
   }
 
+  .info__img {
+    max-width: 30rem;
+  }
+
   .info__text__p {
     font-size: 2rem;
   }

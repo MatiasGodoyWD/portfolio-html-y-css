@@ -93,7 +93,7 @@ html {
 .logo {
   max-width: 10rem;
   cursor: pointer;
-  height: 8rem;
+  max-height: 8rem;
 }
 
 #navbar__bars-checkbox {

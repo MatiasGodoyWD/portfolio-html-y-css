@@ -2,8 +2,8 @@
   html {
     font-size: 8.5px;
   }
+
   .hero__text {
-    /* flex-wrap: wrap; */
     width: 85%;
   }
 
@@ -15,7 +15,7 @@
   .hero__paragraph {
     font-size: 3rem;
   }
-  S .hero__title--name {
+  .hero__title--name {
     font-size: 3rem;
   }
 
@@ -41,6 +41,7 @@
     font-size: 3.5rem;
     cursor: pointer;
   }
+
   .navbar__menu {
     flex-direction: column;
     position: absolute;
@@ -162,7 +163,10 @@
   }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 900px) {
+  html {
+    font-size: 15px;
+  }
   .logo {
     max-height: 7rem;
   }
@@ -181,6 +185,7 @@
   }
   .footer__media {
     width: 30%;
+    padding-bottom: 1rem;
   }
 }
 

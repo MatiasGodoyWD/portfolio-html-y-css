@@ -1,6 +1,6 @@
 ## Detalles del proyecto
 
-    Modelo de portfolio personal
+    Este proyecto consiste en el maquetado de un portfolio personal ( sin funcionalidades ) realizado como práctica.
 
 ### Tecnologias utilizadas
 
